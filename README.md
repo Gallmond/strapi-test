@@ -1,3 +1,27 @@
+# TODO
+
+- Endpoints to:
+  - user
+    - create user
+    - get token for user
+  - content-types
+    - with that user token, create content that only that user can CRUD.
+  - static content
+    - this is content we define that is displayed as option to user (for example) anything that populates a selection
+
+# content-types
+One type for each page?
+
+Landing page should be able to read the types, see what is missing, and re-open 
+form at the first page that still has a missing field. Or maybe just re-open the
+last viewed form page.
+
+
+
+Original README below
+
+---
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
