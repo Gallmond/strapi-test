@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "store_details",
+  "info": {
+    "singularName": "store-detail",
+    "pluralName": "store-details",
+    "displayName": "Store details"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "storeName": {
+      "type": "string"
+    },
+    "storeDescription": {
+      "type": "text"
+    }
+  }
+}
